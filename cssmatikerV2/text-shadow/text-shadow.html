@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CssMaticker - Text Shadow</title>
+    <link rel="stylesheet" href="text-shadow.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="../images/logo.png">
+
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="navbar">
+
+            <div class="custom-shape-divider-bottom-1675188060">
+                <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120"
+                    preserveAspectRatio="none">
+                    <path
+                        d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z"
+                        class="shape-fill"></path>
+                </svg>
+            </div>
+
+            <h1><a href="../index/index.html" style="color: #fff;">CSSmaticker</a></h1>
+            <ul class="menu">
+                <li><a href="../box-shadow/box-shadow.html">Box Shadow</a></li>
+                <li><a href="text-shadow.html">Text Shadow</a></li>
+                <li><a href="../border-radius/border-radius.html">Border Radius</a></li>
+                <li><a href="../linear-gradient/linear-gradient.html">Linear Gradient</a></li>
+            </ul>
+
+            <p>Text Shadow</p>
+
+            <img class="html-png" src="../images/html.png">
+            <img class="css-png" src="../images/logo.png">
+
+        </div>
+
+        <div class="hata-kapatma"></div>
+
+
+        <div class="islem">
+            
+            <p class="box" id="box">CSS maticker</p>
+
+            <form class="form">
+                <div style="margin-bottom: 75px;">
+                    <h1>Biraz ayar yapalım!</h1>
+                </div>
+                <p>Sadece alttakilerini sürükle</p>
+                <label class="bilgi">yatay</label>
+                <input id="range1" type="range" class="range" min="-150" max="150" value="0">
+                <label id="cikti1">0px</label>
+
+                <label class="bilgi">dikey</label>
+                <input id="range2" type="range" class="range" min="-150" max="150" value="0">
+                <label id="cikti2">0px</label>
+
+                <label class="bilgi">dağılma</label>
+                <input id="range3" type="range" class="range" max="150" value="0">
+                <label id="cikti3">0px</label>
+
+                <input id="btn" class="button" type="button" value="Birader Kod!">
+            </form>
+
+        </div>
+
+
+        <div class="foother anim">
+            <p>
+                tarafından tasarlanmış ve geliştirilmiştir
+                <br><br>
+                Nuri Can
+            </p>
+
+            <div class="contact">
+                <a href="https://github.com/Can2m">
+                    <div class="contact-box gitgub">
+                        <i class="fa-brands fa-github"></i>
+                        <span>Github</span>
+                    </div>
+                </a>
+
+                <a href="https://www.linkedin.com/in/nuri-can-1336ba264/">
+                    <div class="contact-box">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                        <span>Linked</span>
+                    </div>
+                </a>    
+            </div>
+
+        </div>
+
+        <div class="code" id="code-page">
+            <p id="code-text"></p>
+        </div>
+
+        <!-- kütüphane -->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <script>
+            ScrollReveal().reveal('.anim', { delay: 100 });
+        </script>
+
+        <script src="main.js"></script>
+</body>
+
+</html>

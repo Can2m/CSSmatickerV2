@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CssMaticker - Linear Gradient</title>
+    <link rel="stylesheet" href="linear-gradient.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="../images/logo.png">
+
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="navbar">
+
+            <div class="custom-shape-divider-bottom-1675188060">
+                <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120"
+                    preserveAspectRatio="none">
+                    <path
+                        d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z"
+                        class="shape-fill"></path>
+                </svg>
+            </div>
+
+            <h1><a href="../index/index.html" style="color: #fff;">CSSmaticker</a></h1>
+            <ul class="menu">
+                <li><a href="../box-shadow/box-shadow.html">Box Shadow</a></li>
+                <li><a href="../text-shadow/text-shadow.html">Text Shadow</a></li>
+                <li><a href="../border-radius/border-radius.html">Border Radius</a></li>
+                <li><a href="linear-gradient.html">Linear Gradient</a></li>
+            </ul>
+
+            <p>Linear Gradient</p>
+
+            <img class="html-png" src="../images/html.png">
+            <img class="css-png" src="../images/logo.png">
+
+        </div>
+
+        <div class="hata-kapatma"></div>
+
+
+        <div class="islem">
+            
+            <div class="box" id="box"></div>
+
+            <form class="form">
+                <div style="margin-bottom: 75px;">
+                    <h1>Biraz ayar yapalım!</h1>
+                </div>
+                <div style="margin-left: 150px;">
+                    <div class="block">
+                        <p>1.renk</p>
+                        <input type="color" id="clr1">
+                    </div>
+
+                    <div class="block">
+                        <p>2.renk</p>
+                        <input type="color" id="clr2">
+                    </div>
+
+                    <div class="block artı-renkler1" id="artı-renkler1">
+                        <p>3.renk</p>
+                        <input type="color" id="clr3">
+                    </div>
+
+                    <div class="block artı-renkler2" id="artı-renkler2">
+                        <p>4.renk</p>
+                        <input type="color" id="clr4">
+                    </div>
+
+                    <input id="renk-arttır" class="renkartır" type="button" value="+">
+                    <input id="renk-azalt" class="renkazalt" type="button" value="-">
+
+                </div>
+
+                <div class="buttonlar">
+                    <input type="button" value="" id="button1">
+                    <input type="button" value="" id="button2">
+                    <input type="button" value="" id="button3"><br>
+                    <input type="button" value="" id="button4">
+                    <input type="button" value="" id="button5" style="margin-left: 29px;"><br>
+                    <input type="button" value="" id="button6">
+                    <input type="button" value="" id="button7">
+                    <input type="button" value="" id="button8">
+                </div>
+
+                <input type="range" id="rang2" min="0" max="100" value="50">
+
+                <input type="range" id="rang" min="0" max="100" value="50">
+
+                <input type="range" id="rang3" min="0" max="100" value="50" style="display: none;">
+
+                <input type="range" id="rang4" min="0" max="100" value="50" style="display: none;">
+
+                <input type="button" class="button" id="btn" value="Birader Kod!">
+
+            </form>
+
+        </div>
+
+
+        <div class="foother anim">
+            <p>
+                tarafından tasarlanmış ve geliştirilmiştir
+                <br><br>
+                Nuri Can
+            </p>
+
+            <div class="contact">
+                <a href="https://github.com/Can2m">
+                    <div class="contact-box gitgub">
+                        <i class="fa-brands fa-github"></i>
+                        <span>Github</span>
+                    </div>
+                </a>
+
+                <a href="https://www.linkedin.com/in/nuri-can-1336ba264/">
+                    <div class="contact-box">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                        <span>Linked</span>
+                    </div>
+                </a>    
+            </div>
+
+        </div>
+
+        <div class="code" id="code-page">
+            <p id="code-text" style="font-size: 10px;"></p>
+        </div>
+
+        <!-- kütüphane -->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <script>
+            ScrollReveal().reveal('.anim', { delay: 100 });
+        </script>
+
+        <script src="main.js"></script>
+</body>
+
+</html>
